@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Archive this page",
+  "version": "1.2",
+  "description": "Adds an archive button to the browser.",
+  "author": "/u/hypnozooid",
+  
+  "icons": { "48": "images/archive48.png",
+            "128": "images/archive128.png" },
+  
+  "browser_action": {
+      "default_title": "Archive this page",
+      "default_icon": {
+            "16": "images/icon16.png",
+            "24": "images/icon24.png",
+            "32": "images/icon32.png",
+            "48": "images/icon48.png"
+      }
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ]
+}
