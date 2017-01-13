@@ -27,7 +27,7 @@ chrome.browserAction.onClicked.addListener(function() {
             }
             
             window.open('http://ceddit.com'+encodeURI(url.pathname+url.search));
-            window.open('https://archive.is/?run=1&url=http://reddit.com'+encodeURIComponent(url.pathname+url.search));
+            window.open('https://archive.is/?run=1&url=http://www.reddit.com'+encodeURIComponent(url.pathname+url.search));
         }
         else {
             window.open('http://megalodon.jp/pc/get_simple/decide?url='+encodeURI(url));
