@@ -6,7 +6,7 @@ Chrome extension to archive websites
   - megalodon.jp
   - archive.is
   
-- On links to a full reddit thread or subreddit uses:
+- On links to a full reddit thread uses:
   - archive.org
   - megalodon.jp
   - ceddit.com
@@ -17,11 +17,16 @@ Chrome extension to archive websites
   - ceddit.com
   - archive.is*
   
- *modified to get around the reddit SEO page
+- On links to a subreddit or reddit user page uses:
+  - archive.org
+  - megalodon.jp
+  - archive.is* 
+  
+ *using http to avoid the reddit "more from..." SEO page
 
 ## Installation
 
-1. Download and unzip the [extension folder](extension).
+1. Download and unzip the [extension folder](https://github.com/shitposting/archive-chrome-extension/archive/master.zip).
 
 2. Visit `chrome://extensions` in your browser (or open up the Chrome menu by clicking the icon to the far right of the Omnibox and select **Extensions** under the **Tools** menu to get to the same place).
 
